@@ -11,7 +11,6 @@
       content="Café Chrispresso - Coffee Connoisseur's Paradise"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -156,10 +155,121 @@
             </label>
           </form>
         </section>
-          <section id="menu" class="menu"></section>
-          <section id="about" class="about"></section>
+        <section id="menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            Here at Café Chrispresso, we take pride in our diverse menu,
+            offering a wide range of unique coffee blends. From the
+            rich and robust flavors of our signature blends to the delicate
+            and aromatic notes of our specialty coffees, we have something to
+            satisfy every palate. Our menu is carefully curated to ensure that
+            each cup of coffee is a delightful experience, whether you prefer a
+            classic espresso, a creamy latte, or a refreshing iced brew. We
+            invite you to explore our menu and discover the perfect coffee that
+            suits your taste. Join us at Café Chrispresso, where every sip is a
+            journey through the world of coffee, crafted with passion and
+            expertise.
+          </p>
+          <ul class="menu__cards">
+           <li class="card">
+            <h3 class="card___title">Filter</h3>
+            <ul class="card__list">
+             <li class="card__list-item">Regular (12oz) <span class="card__list-divider"></span> $1
+            </li>
+             <li class="card__list-item">Large (16oz) <span class="card__list-divider"></span> $1.25
+            </li>
+             <li class="card__list-item">XL (20oz) <span class="card__list-divider"></span> $1.5
+            </li>
+             <li class="card__list-item">Party-size (24oz, decaf) <span class="card__list-divider"></span> $1.75
+            </li>
+             <li class="card__list-item">Iced Coffee (16oz) <span class="card__list-divider"></span> $1.25
+            </li>
+            </ul>
+           </li>
+           <li class="card">
+            <h3 class="card___title">Espresso</h3>
+            <ul class="card__list">
+             <li class="card__list-item">Macchiato <span class="card__list-divider"></span> $2.25
+            </li>
+             <li class="card__list-item">Cortado <span class="card__list-divider"></span> $2.5
+            </li>
+             <li class="card__list-item">Mocha <span class="card__list-divider"></span> $3
+            </li>
+             <li class="card__list-item">Sunrise in the Bay Area (decaf) <span class="card__list-divider"></span> $10
+            </li>
+            </ul>
+           </li>
+           <li class="card">
+            <h3 class="card___title">Baked Goods</h3>
+            <ul class="card__list">
+             <li class="card__list-item">Almond Croissant <span class="card__list-divider"></span> $2
+            </li>
+             <li class="card__list-item">Banana Bread <span class="card__list-divider"></span> $1.75
+            </li>
+             <li class="card__list-item">Key Lime Pie <span class="card__list-divider"></span> $3
+            </li>
+             <li class="card__list-item">Blue Velvet Cake <span class="card__list-divider"></span> $3.75
+            </li>
+             <li class="card__list-item">Web Cookie <span class="card__list-divider"></span> $2
+            </li>
+             <li class="card__list-item">Fresh Bug`uette <span class="card__list-divider"></span> $0.25
+            </li>
+            </ul>
+           </li>
+          </ul>
+        </section>
+        <section id="about" class="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">Our main mission is keeping guests cozy and energized
+            </p>
+            <p class="about__paragraph"> Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          </section>
       </main>
-      <footer id="contacts" class="footer"></footer>
+      <footer id="contacts" class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/images/logo_coffeeshop_light.svg"
+            alt="Café Chrispresso logo"
+            class="footer__logo"
+        />
+        <div class="footer__column">
+          <h3 class="footer__colum-heading">Social Media</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a
+                href="#"
+                class="footer__social-link">
+                <img
+                  src=images\images\facebook_white.svg
+                  alt="Facebook icon"
+                  class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+               <li class="footer__list-item">
+              <a
+                href="#"
+                class="footer__social-link">
+                <img
+                  src=images\images\instagram_white.svg
+                  alt="Instagram icon"
+                  class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="foot__copyright">&copy; 2025 Christopher Forge</p>
+      </footer>
     </div>
   </body>
 </html>
