@@ -126,6 +126,7 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label for="date-time" class="form__label">
@@ -145,12 +146,17 @@
                   id="email"
                   type="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input class="form__checkbox" id="checkbox" type="checkbox" />
+              <input
+              class="form__checkbox"
+              id="checkbox"
+              type="checkbox"
+              required />
               I agree with the terms of use
             </label>
           </form>
@@ -172,7 +178,7 @@
           </p>
           <ul class="menu__cards">
            <li class="card">
-            <h3 class="card___title">Filter</h3>
+            <h3 class="card__title">Filter</h3>
             <ul class="card__list">
              <li class="card__list-item">Regular (12oz) <span class="card__list-divider"></span> $1
             </li>
@@ -187,7 +193,7 @@
             </ul>
            </li>
            <li class="card">
-            <h3 class="card___title">Espresso</h3>
+            <h3 class="card__title">Espresso</h3>
             <ul class="card__list">
              <li class="card__list-item">Macchiato <span class="card__list-divider"></span> $2.25
             </li>
@@ -200,7 +206,7 @@
             </ul>
            </li>
            <li class="card">
-            <h3 class="card___title">Baked Goods</h3>
+            <h3 class="card__title">Baked Goods</h3>
             <ul class="card__list">
              <li class="card__list-item">Almond Croissant <span class="card__list-divider"></span> $2
             </li>
@@ -241,14 +247,14 @@
             class="footer__logo"
         />
         <div class="footer__column">
-          <h3 class="footer__colum-heading">Social Media</h3>
+          <h3 class="footer__column-heading">Social Media</h3>
           <ul class="footer__list">
             <li class="footer__list-item">
               <a
                 href="#"
                 class="footer__social-link">
                 <img
-                  src=images\images\facebook_white.svg
+                  src="./images/images/facebook_white.svg"
                   alt="Facebook icon"
                   class="footer__social-icon"
                   />Facebook</a
@@ -259,7 +265,7 @@
                 href="#"
                 class="footer__social-link">
                 <img
-                  src=images\images\instagram_white.svg
+                  src="./images/images/instagram_white.svg"
                   alt="Instagram icon"
                   class="footer__social-icon"
                   />Instagram</a

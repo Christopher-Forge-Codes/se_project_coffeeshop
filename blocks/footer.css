@@ -14,7 +14,7 @@
   color: white;
   text-decoration: none;
   align-items: center;
-  transition: .7s;;
+  transition: .5s;
 }
 
 .footer__logo {
@@ -58,6 +58,6 @@ font-family: "Inter", "Arial", sans-serif;
 }
 
 .footer__social-link:hover {
- opacity: 0.7;
+ opacity: 0.5;
  text-decoration: none;
 }
